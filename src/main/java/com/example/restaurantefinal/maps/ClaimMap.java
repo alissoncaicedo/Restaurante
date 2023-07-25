@@ -14,8 +14,9 @@ import java.util.List;
 
 public interface ClaimMap {
     @Mappings({
+            @Mapping(source = "id", target="id"),
+            @Mapping(source = "idOrder", target="idOrder"),
             @Mapping(source = "campus", target="campus"),
-            @Mapping(source = "status", target="status"),
             @Mapping(source="reason", target="reason"),
 
 
