@@ -1,7 +1,7 @@
 package com.example.restaurantefinal.maps;
 
 import com.example.restaurantefinal.dto.MenuResponseDto;
-import com.example.restaurantefinal.entitis.Menu;
+import com.example.restaurantefinal.entities.Menu;
 import org.mapstruct.Mapper;
 
 import org.mapstruct.Mapping;
@@ -16,7 +16,7 @@ public interface MenuMap {
             @Mapping(source = "name", target="name"),
             @Mapping(source = "price", target="price"),
             @Mapping(source="url", target="photo"),
-            @Mapping(source="description", target="descripcion")
+            @Mapping(source="description", target="description")
 
     })
     public MenuResponseDto transformationMenu(Menu menu);

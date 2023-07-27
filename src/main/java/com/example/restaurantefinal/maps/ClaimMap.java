@@ -1,9 +1,7 @@
 package com.example.restaurantefinal.maps;
 
 import com.example.restaurantefinal.dto.ClaimResponseDto;
-import com.example.restaurantefinal.dto.MenuResponseDto;
-import com.example.restaurantefinal.entitis.Claim;
-import com.example.restaurantefinal.entitis.Menu;
+import com.example.restaurantefinal.entities.Claim;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
